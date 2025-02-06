@@ -2,7 +2,7 @@ import axios from "axios";
 import type { Task } from "../types/task";
 
 const api = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: import.meta.env.VITE_BACKEND_URL,
 });
 
 export const TasksApi = {
