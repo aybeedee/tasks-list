@@ -41,11 +41,11 @@ const Task = sequelize.define<TaskInstance, TaskAttributes>("Task", {
   },
   createdAt: {
     type: DataTypes.DATE,
-    field: "created_at",
+    columnName: "created_at",
   },
   updatedAt: {
     type: DataTypes.DATE,
-    field: "updated_at",
+    columnName: "updated_at",
   },
 });
 
