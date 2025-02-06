@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full w-full flex items-center justify-center bg-gray-900 py-10 px-6">
+  <div class="min-h-screen w-full flex items-center justify-center bg-gray-900 py-10 px-6">
     <div class="max-w-2xl w-full">
       <h1 class="text-3xl font-bold mb-8 text-center text-white">Tasks List!</h1>
       
